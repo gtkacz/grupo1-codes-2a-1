@@ -1,3 +1,47 @@
+.intro-header{
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.profile-pic{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+}
+
+.profile-pic img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.cv-box{
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px 10px 20px 10px;
+	padding: 5px;
+}
+
+.size-icon {
+    float:  left;
+    width:  300px;
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
 body, html{
 	width: 100%;
 	height: 50px;
@@ -109,3 +153,4 @@ body>h1{
 	text-align: center;
 	margin-top: 50px;
 }
+
