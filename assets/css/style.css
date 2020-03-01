@@ -1,3 +1,5 @@
+
+/* fonte usada para produzir o style da categoria https://www.youtube.com/watch?v=ztjNMqFqPpU */
 .intro-header{
 	border-style: solid;
 	border-width: 1px;
@@ -57,7 +59,7 @@ nav{
 	width: 100%;
 	height: 50px;
 	position: absolute;
-	background-color: #666666;
+	background-color: none;
 	top: 0;
 	left: 0;
 	overflow: hidden;
@@ -74,20 +76,20 @@ nav>ul{
 nav>ul>li{
 	display: block;
 	float: left;
-	width: 16%;
+	width: 16.6%;
 	text-align: center;
 	line-height: 50px;
 	border-right: 1px solid #dddddd;
 
 }
 
-nav>ul>li:first-child{
-	border-left: 1px solid #dddddd;
+nav>ul>li:last-child{
+	border-right: none;
 }
 
 nav>ul>li>a{
 	display: block;
-	color: #dddddd;
+	color: gray;
 	text-decoration: none;
 	font-size: .9em;
 	font-weight: bold;
@@ -153,4 +155,3 @@ body>h1{
 	text-align: center;
 	margin-top: 50px;
 }
-
