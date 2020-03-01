@@ -20,7 +20,7 @@ nav{
 }
 
 nav>ul{
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -87,4 +87,25 @@ body>h1{
 	object-fit: cover;
 	text-align: center;
 	margin-top: -60px;
+}
+
+.block-container{
+	display: block;
+	grid-template-columns: auto auto auto;
+	padding: 1px; 
+	margin-top: 1px;
+}
+
+.block-item{
+	padding: 1px;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+}
+
+.block-title{
+	padding: 20px;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 50px;
 }
