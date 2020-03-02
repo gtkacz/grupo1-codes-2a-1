@@ -7,9 +7,12 @@
 	padding: 20px;
 }
 
-.txt-center{
+.title1{
 	text-align: center;
+	margin-top: 25px;
 }
+
+
 
 .profile-pic{
 	position: relative;
