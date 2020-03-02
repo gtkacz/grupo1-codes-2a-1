@@ -12,7 +12,9 @@
 	margin-top: 25px;
 }
 
-
+.txt-center{
+	text-align: center;
+}
 
 .profile-pic{
 	position: relative;
