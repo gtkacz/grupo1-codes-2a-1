@@ -29,9 +29,9 @@
 }
 
 .profile-pic img {
-  width: auto;
-  height: 100%;
-  margin-left: -50px;
+	width: auto;
+	height: 100%;
+	margin-left: -50px;
 }
 
 .cv-box{
@@ -42,11 +42,11 @@
 }
 
 .size-icon {
-    float:  left;
-    width:  300px;
-    height: 200px;
-    background-size: cover;
-    margin-bottom: 10px;
+	float:  left;
+	width:  300px;
+	height: 200px;
+	background-size: cover;
+	margin-bottom: 10px;
 }
 
 body, html{
