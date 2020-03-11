@@ -60,6 +60,7 @@
 
 
 .categorias{
+  border-bottom-width:10em;
 	display: block;
 	float: left;
 	width: 15%;
@@ -85,6 +86,7 @@
 	font-family: 'Roboto Slab', serif;
 }
 .cat2{
+  text-transform: uppercase;
 	display: block;
 	color: #1e211d;
 	text-decoration: none;
