@@ -1,9 +1,11 @@
 .fonte_titulo{
 	font-family: 'Roboto Slab', serif;
+}
 	
 .fonte_corpo{
 	font-family: 'Arial';
-
+}
+	
 .block-img{
 	align-items:center;
 	justify-content: center;
