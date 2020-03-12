@@ -101,7 +101,7 @@
 .dropdown-categorias{
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #5C5C5C;
   min-width: 16em;
   box-shadow: 0em 0.8em 1.6em 0em rgba(0,0,0,0.2);
   padding: 12em 16em;
@@ -113,11 +113,11 @@
 }
 
 .cat1:hover{
-	background: #df3945;
+	background: #5C5C5C;
 }
 
 .cat2:hover{
-	background-color: #df3945;
+	background-color: #5C5C5C;
 }
 
 .categoria{
