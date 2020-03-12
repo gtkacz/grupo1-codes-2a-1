@@ -7,40 +7,30 @@
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
-
 }
 
 .titulo-nome{
 	position: relative;
 	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 2px;
+	margin-top: 6rem;
+	margin-bottom: 2rem;
 	font-family: 'Roboto Slab', serif;
 	font-size: 200%;
 }
 
 .cv-box{
 	border-style: solid;
-	border-width: 1px;
-	margin: 10px 10px 20px 10px;
-	padding: 5px;
+	border-width: 0.1rem;
+	margin: 0.1rem 0.1rem 1rem 0.1rem;
+	padding: 0.5rem;
 	font-family: Arial;
 	font-size: 1.5rem;
-}
-
-.size-icon {
-  float:  left;
-  width:  300px;
-  height: 200px;
-  background-size: cover;
-  margin-bottom: 10px;
 }
 
 .grid-foto-cv{
 	flex-wrap: nowrap | wrap | wrap-reverse;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	padding: 10px; 
+	padding: 0.1rem; 
 	margin-top: 2rem;
 }
