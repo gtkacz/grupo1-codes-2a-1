@@ -4,23 +4,25 @@
 <head class="intro-head">
   <title class="title1">Categoria</title>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href="assets/css/style-projeto.css" rel="stylesheet">
   <link href="assets/css/style-categoria.css" rel="stylesheet">
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
-  <script src="assets/js/codes.js"></script>
-  <script src="assets/js/index.js"></script>
+  <meta name="viewport" content="width=display-width,initial-scale=1">
 </head>
 
 <body class="body-categoria">
 
   <nav class="nav-categoria">
-    <ul class="ul-categoria-menu">
-      <li class="ul-categoria-item"><a class="cat1" href="index.html">OSVALDO ARANHA</a></li>
-      {{#each portfolio.portfolio}}
-      <li class="ul-categoria-item"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
-      {{/each}}
+    <ul class="ul-categoria">
+      <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
+      <li class="categorias"><a class="cat2" href="categoria.html">hardware</a></li>
+      <li class="categorias"><a class="cat2" href="categoria.html">hardware & software</a></li>
+      <li class="categorias"><a class="cat2" href="categoria.html">matemática</a></li>
+      <li class="categorias"><a class="cat2" href="categoria.html">software & matemática</a></li>
+      <li class="categorias"><a class="cat2" href="categoria.html">software</a></li>
     </ul>
   </nav>
 
@@ -28,29 +30,29 @@
 
   <div class="grid-container">
 
-    <div class="grid-img"><a href="projeto.html"><img src="https://cdn.pixabay.com/photo/2016/09/09/20/44/robot-1658023_960_720.jpg" width="320" height="320" alt="cat1"></a></div>
-    <div class="grid-img"><a href="projeto.html"><img src="https://cdn.pixabay.com/photo/2013/03/22/06/57/meadow-95724_960_720.jpg" widtd="300" height="300" alt="cat2"></a></div>
-    <div class="grid-img"><a href="projeto.html"><img src="https://cdn.pixabay.com/photo/2018/08/17/10/08/traffic-lights-3612484_960_720.jpg" width="300" height="300" alt="cat3"></a></div>
-    <div class="block-title"><a class="block-title fonte_titulo" href="projeto.html"> Robô controlado coletivamente por celulares</a></div>
-    <div class="block-title"><a class="block-title fonte_titulo" href="projeto.html"> Estação Metereológica</a></div>
-    <div class="block-title"><a class="block-title fonte_titulo" href="projeto.html"> Sinalização de trânsito inteligente</a></div>  
-    <div class="grid-item"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="grid-img"><a href="projeto.html"><img src="assets/img/cat1.jpg" width=150 height=150 alt="cat1"></a></div>
+    <div class="grid-img2"><a href="projeto.html"><img src="assets/img/cat2.jpg" height="150" alt="cat2"></a></div>
+    <div class="grid-img3"><a href="projeto.html"><img src="assets/img/cat3.jpg" width="150" height="150" alt="cat3"></a></div>
+    <div class="grid-title"><a class="grid-title fonte_titulo" href="projeto.html"> Robô controlado coletivamente por celulares</a></div> 
+    <div class="grid-title2"><a class="grid-title fonte_titulo" href="projeto.html"> Estação Metereológica</a></div>
+    <div class="grid-title3"><a class="grid-title fonte_titulo" href="projeto.html"> Sinalização de trânsito inteligente</a></div>  
     <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-    <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    <div class="grid-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="grid-item3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>  
   </div>
 </body>
