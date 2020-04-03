@@ -4,7 +4,6 @@
 <head class="intro-head">
   <title class="title1">Categoria</title>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link href="assets/css/style-projeto.css" rel="stylesheet">
   <link href="assets/css/style-categoria.css" rel="stylesheet">
   <link href="assets/css/reset.css" rel="stylesheet">
@@ -17,9 +16,10 @@
 <body class="body-categoria">
 
   <nav class="nav-categoria">
-    <ul class="ul-categoria">
+    <ul class="ul-categoria-menu">
       {{#each portfolio}}
-      <li class="ul-categoria-menu"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+      <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
+      <li class="ul=categoria-item"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
       {{/each}}
     </ul>
   </nav>
