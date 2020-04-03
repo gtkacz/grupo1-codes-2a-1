@@ -8,6 +8,7 @@
 	<link href="assets/css/style-categoria.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+	<script src="assets/js/codes.js"></script>
 	<script src="assets/js/index.js"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -16,15 +17,13 @@
 <body>
 
     <nav class="nav-categoria">
-      <ul class="ul-categoria">
-        <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
-        <li class="categorias"><a class="cat2" href="categoria.html">HARDWARE</a></li>
-        <li class="categorias"><a class="cat2" href="categoria.html">HARDWARE & SOFTWARE</a></li>
-        <li class="categorias"><a class="cat2" href="categoria.html">MATEMÁTICA</a></li>
-        <li class="categorias"><a class="cat2" href="categoria.html">SOFTWARE & MATEMÁTICA</a></li>
-        <li class="categorias"><a class="cat2" href="categoria.html">SOFTWARE</a></li>
-      </ul>
-    </nav>	
+    <ul class="ul-categoria-menu">
+      <li class="ul-categoria-item"><a class="cat1" href="index.html">OSVALDO ARANHA</a></li>
+      {{#each portfolio.portfolio}}
+      <li class="ul-categoria-item"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+      {{/each}}
+    </ul>
+  </nav>
 
     <h1 class="titulo-nome">Osvaldo Aranha</h1>
 

@@ -9,17 +9,17 @@
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
-  <script scr="assets/js/codes.js"></script>
-  <script scr="assets/js/categoria.js"></script>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
 </head>
 
 <body class="body-categoria">
 
   <nav class="nav-categoria">
     <ul class="ul-categoria-menu">
-      {{#each portfolio}}
-      <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
-      <li class="ul=categoria-item"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
+      <li class="ul-categoria-item"><a class="cat1" href="index.html">OSVALDO ARANHA</a></li>
+      {{#each portfolio.portfolio}}
+      <li class="ul-categoria-item"><a class="ul-categoria-link" href="categoria.html?key={{@key}}">{{this.categoria}}</a></li>
       {{/each}}
     </ul>
   </nav>
