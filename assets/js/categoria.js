@@ -1,17 +1,23 @@
-document.addEventListener('DOMContentLoaded'  
-	, function(){
-		let	params = coDesExtract()
-		let value = param['key']
-		console.log(value)
-		let value2 = document.querySelector(".categoria-link")
-		value2.href = 'projeto.html?pi=' + value + 'key={{@key}}'
+document.addEventListener('DOMContentLoaded', function() {
+  let params = coDesExtract()
+  let value = params['key']
+  let value2 = document.querySelector('.batatinha')
+  console.log(value2)
+  let db = coDesConnect('https://codes-luiz.firebaseio.com/')
+  db.download('/', function(data) {
+    
+    context = data
+    coDesReplace('.nav-cat-sup', context)
 
-		let db = coDesConnect('https://codes-luiz.firebaseio.com/')
+    console.log(value)
 
-		db.download('/', function(data) {
-			context=data
-			coDesReplace('.call-tittle', context)
-			context=data['portfolio.portfolio'][value]
-			console.log(context)
-		})
-	})
+    context = data['portfolio'][value]
+    console.log(context)
+    coDesReplace('title', context)
+    coDesReplace('.k1', context)
+    coDesReplace('.descricao',context)
+    coDesReplace('.container', context)
+
+  })
+})
+

@@ -1,26 +1,3 @@
-.call{
-
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.call-figure {
-  width: 33%;
-}
-
-.call-image {
-  width: 0%;
-  border-radius: 25%;
-}
-
-.call-text {
-  width: 100%;
-  margin-top: 1rem;
-  text-align: center;
-  font-size: 0.5rem;
-}
-
 .page{
   background-color: #d3d3d3;
 }
@@ -30,11 +7,11 @@
 }
 
 .profile-pic{
-	width: 20rem;
-	overflow: auto;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	display: flex;
+	width: 45%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 
 }
 
@@ -44,27 +21,28 @@
 	margin-top: 6rem;
 	margin-bottom: 2rem;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2rem;
+	font-size: 250%;
 }
 
 .cv-box{
-	display: flex;
 	border-style: solid;
 	border-width: 0.1rem;
 	margin: 0.1rem 0.1rem 1rem 0.1rem;
 	padding: .5rem;
 	font-family: 'Sen', sans-serif;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 .grid-foto-cv{
+	flex-wrap: nowrap | wrap | wrap-reverse;
+	display: grid;
 	grid-template-rows: auto auto auto;
 	padding: 0.1rem;
 	margin-top: 2rem;
 	grid-row-gap: 1rem;
 }
 
-@media (max-width: 68rem) {
+@media (max-width: 360px) {
 
 	.titulo-nome{
 		font-size: 1.5em;
@@ -72,8 +50,8 @@
 }
 	
 	.cv-box{
-		font-size: 0.25rem;
-		margin-top: .01rem;
+		font-size: 0.75rem;
+		margin-top: -50px;
 
 }
 	.grid-foto-cv{

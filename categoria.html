@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=display-width,initial-scale=1">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/categoria.js"></script>
 </head>
 
 <body class="body-categoria">
@@ -18,11 +20,9 @@
   <nav class="nav-categoria">
     <ul class="ul-categoria">
       <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
-      <li class="categorias"><a class="cat2" href="categoria.html">hardware</a></li>
-      <li class="categorias"><a class="cat2" href="categoria.html">hardware & software</a></li>
-      <li class="categorias"><a class="cat2" href="categoria.html">matemática</a></li>
-      <li class="categorias"><a class="cat2" href="categoria.html">software & matemática</a></li>
-      <li class="categorias"><a class="cat2" href="categoria.html">software</a></li>
+      {{#each portfolio}}
+      <li class = "categorias"><a href="categoria.html?key={{@key}}" class="cat2">{{this.categoria}}</a></li>
+    {{/each}}
     </ul>
   </nav>
 
@@ -53,7 +53,17 @@
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>  
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    {{#each projetos}}
+        <li class="item-list azul-maisescuro"> 
+        <img src="assets/img/{{@key}}.jpg" alt="banco de dados" class="image-list">
+          <div class="title-list">
+            <p>
+              <a class="batatinha title-list gelo-texto" href="projeto.html?cat={{categoria}}&pro={{@key}}" >{{this.titulo}}</a>
+            </p>
+          </div>
+        </li> 
+        {{/each}}  
   </div>
 </body>
 </html> 
