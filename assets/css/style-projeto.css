@@ -56,16 +56,16 @@
 }
 
 .block-item{
-	padding-left: 4%;
-	padding-right: 4%;
+	/*padding-left: 4%;
+	padding-right: 4%;*/
 	font-size: 100%;
 	text-align: center;
 	display: block;
 }
 
 .block-item-next{
-	padding-top: 7%;
-	padding-left: 21%;
+	padding-top: 7rem;
+	padding-left: 21rem			;
 	font-size: 100%;
 	text-align: center;
 	display: grid;
@@ -102,26 +102,25 @@
 @media (max-width: 68rem){
 
 	.block-title{
-		font-size: 80%;
+		font-size: 1.2rem;
 }
 
 	.block-item{
-		font-size: 60%;
+		font-size: .75rem;
 }
 
 	.block-img{
-		max-width: 120px;
+		max-width: .75rem;
 		height: auto;
 		margin-top: -3rem;
-		text-align: center;
+
 
 }
 	.img-container{
-		max-width: 50%;
+		max-width: 70%;
 		height: auto;
 		margin-top: 5rem;
 		text-align: center;
-		margin-left: 3.3rem;
 	}
 
 	.categoria_fonte_titulo{
