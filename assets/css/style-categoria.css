@@ -1,4 +1,28 @@
 /* fonte usada para produzir o style da categoria https://www.youtube.com/watch?v=ztjNMqFqPpU */
+
+.call{
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.call-figure {
+  width: 33%;
+}
+
+.call-image {
+  width: 50%;
+  border-radius: 25%;
+}
+
+.call-text {
+  width: 25%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
 .intro-header{
 	border-style: solid;
 	border-width: 1em;
@@ -25,6 +49,8 @@
 }
 
 .ul-categoria{
+	display: flex;
+	flex-direction: row;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -242,7 +268,7 @@
   background-color: #d3d3d3;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 68rem) {
 	.nav-categoria{
 		width: 100%;
 		font-size: .5rem;
