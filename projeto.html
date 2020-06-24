@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
   <script src="assets/js/codes.js"></script>
-  <script src="assets/js/index.js"></script>
   <script src="assets/js/projeto.js"></script>
 </head>
 <body class="body-categoria">
@@ -22,15 +21,15 @@
         {{/each}}
     </ul>
   </nav>
-  <h1 class="categoria_fonte_titulo"; id="projeto">{{titulo}}</h1>
+  <h1 class="categoria_fonte_titulo uva"; id="projeto">{{titulo}}</h1>
 
-  <div class="container-img">
-    <img class="block-img" src="assets/img/estacao.jpeg"  width="40%" alt="foto da estação">
+  <div class="container-img poloni">
+    <img class="block-img" src="assets/img/{{nomefoto}}.jpg" alt="foto do projeto">
   </div>
   
-  <div class="block-container">  
+  <div class="block-container maca">  
     <div class="block-title fonte_titulo">Disciplina</div>
-    <div class="block-item fonte_corpo">{{disciplina}}</div>
+    <div class="block-item fonte_corpo maca">{{disciplina}}</div>
     <div class="block-title fonte_titulo">Equipe</div>
     <div class="block-item fonte_corpo">{{equipe}}</div>
     <div class="block-title fonte_titulo">Descrição</div>
@@ -38,8 +37,7 @@
     <div class="block-title fonte_titulo">Local de Execução</div>
     <div class="block-item fonte_corpo">{{localexecucao}}</div>
     <div class="block-title fonte_titulo">Materiais</div>
-    <div class="block-item fonte_corpo">{{materiais}}</div>
-    <div class="block-item-topo fonte_corpo"><a href="#projeto">Voltar para o topo</a></div>  
+    <div class="block-item fonte_corpo">{{materiais}}</div>  
   </div>
 </body>
 </html> 
