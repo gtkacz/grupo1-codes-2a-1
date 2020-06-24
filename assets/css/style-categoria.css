@@ -215,27 +215,8 @@
 		grid-column-gap: 1em;
 }
 	.grid-title{
-		font-size: .75rem;
+		font-size: 1rem;
 }
 	.grid-item{
-		font-size: .5rem;
-	}
-
-	.grid-title2{
 		font-size: .75rem;
-}
-	.grid-item2{
-		font-size: .5rem;
-	}
-
-	.grid-title3{
-		font-size: .75rem;
-}
-	.grid-item3{
-		font-size: .5rem;
-}
-
-	.grid-img{
-
-
 }
