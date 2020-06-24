@@ -14,35 +14,33 @@
 </head>
 <body class="body-categoria">
   <nav class="nav-categoria">
-   <ul class="ul-categoria">
-    <li class="categorias"><a class="cat1 fonte_titulo" href="index.html">Osvaldo Aranha</a></li>
-    {{#each portfolio}}
-        <li class = "categorias"><a href="categoria.html?key={{@key}}" class="cat2">{{this.categoria}}</a></li>
-      {{/each}}
-  </ul>
-</nav>
-<h1 class="categoria_fonte_titulo"; id="projeto">Estação Metereológica</h1>
-<div>
-  <a>
-    <div class="img-container">
-      <div class="block-img"><img src="assets/img/estacao.jpeg" height="112.5" width="200" alt="foto da estação"></div>
-    </div>
-  </a>
-</div>
-<div class="block-container">  
-  <div class="block-title fonte_titulo">Disciplina</div>
-  <div class="block-item fonte_corpo">Instrumentação e Medição</div>
-  <div class="block-title fonte_titulo">Equipe</div>
-  <div class="block-item fonte_corpo">Osvaldo Aranha, Osvaldo Aranha Júnior, Osvaldo Aranha Neto</div>
-  <div class="block-title fonte_titulo">Descrição</div>
-  <div class="block-item fonte_corpo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-  <div class="block-title fonte_titulo">Local de execução</div>
-  <div class="block-item fonte_corpo"><a href="https://www.insper.edu.br/fab-lab/">FabLab</a> e <a href="https://www.insper.edu.br/laboratorios/">Laboratório de Física e Instrumentação</a> do Insper</div>
-  <div class="block-title fonte_titulo">Materiais</div>
-  <div class="block-item fonte_corpo">Sensor de temperatura, sensor de pressão, sensor de altitude</div>
-  <div class="block-item-next fonte_corpo"><a href="projeto.html">Próximo projeto</a></div>
-  <div class="block-item-last fonte_corpo"><a href="projeto.html">Último projeto</a></div> 
-  <div class="block-item-topo fonte_corpo"><a href="#projeto">Voltar para o topo</a></div>  
-</div>
+    <ul class="ul-categoria">
+      <li class="categorias"><a class="cat1 fonte_titulo" href="index.html">Osvaldo Aranha</a></li>
+      {{#each portfolio}}
+          <li class = "categorias"><a href="categoria.html?key={{@key}}" class="cat2">{{this.categoria}}</a></li>
+        {{/each}}
+    </ul>
+  </nav>
+  <h1 class="categoria_fonte_titulo"; id="projeto">Estação Metereológica</h1>
+
+  <div class="container-img">
+    <img class="block-img" src="assets/img/estacao.jpeg"  width="40%" alt="foto da estação">
+  </div>
+  
+  <div class="block-container">  
+    <div class="block-title fonte_titulo">Disciplina</div>
+    <div class="block-item fonte_corpo">Instrumentação e Medição</div>
+    <div class="block-title fonte_titulo">Equipe</div>
+    <div class="block-item fonte_corpo">Osvaldo Aranha, Osvaldo Aranha Júnior, Osvaldo Aranha Neto</div>
+    <div class="block-title fonte_titulo">Descrição</div>
+    <div class="block-item fonte_corpo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="block-title fonte_titulo">Local de execução</div>
+    <div class="block-item fonte_corpo"><a href="https://www.insper.edu.br/fab-lab/">FabLab</a> e <a href="https://www.insper.edu.br/laboratorios/">Laboratório de Física e Instrumentação</a> do Insper</div>
+    <div class="block-title fonte_titulo">Materiais</div>
+    <div class="block-item fonte_corpo">Sensor de temperatura, sensor de pressão, sensor de altitude</div>
+    <div class="block-item-next fonte_corpo"><a href="projeto.html">Próximo projeto</a></div>
+    <div class="block-item-last fonte_corpo"><a href="projeto.html">Último projeto</a></div> 
+    <div class="block-item-topo fonte_corpo"><a href="#projeto">Voltar para o topo</a></div>  
+  </div>
 </body>
 </html> 
