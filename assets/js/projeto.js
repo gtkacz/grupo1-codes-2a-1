@@ -13,5 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.maca', context)
     coDesReplace('.uva', context)
     coDesReplace('.poloni', context)
+    coDesReplace('title', context)
   })
 })
