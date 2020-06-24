@@ -30,11 +30,11 @@
 }
 
 .profile-pic{
-	width: 50rem;
+	width: auto;
 	overflow: auto;
-	display: flex;
-	align-items: center;
-	margin-left:7rem;
+	display: center;
+	margin-left:auto;
+	margin-left: auto;
 
 }
 
@@ -63,7 +63,7 @@
 	grid-row-gap: 1rem;
 }
 
-@media (max-width: 68rem) {
+@media (max-width: 70rem) {
 
 	.titulo-nome{
 		font-size: 1.5em;
@@ -78,6 +78,7 @@
 	.grid-foto-cv{
 		grid-row-gap: 1rem;
 		padding: 0.5rem;
+		align-items: center;
 	}
 
 	.profile-pic{
@@ -85,6 +86,5 @@
 		width: 15rem;
 		max-height: 70%;
 		align-content: center;
-		margin-right: 50rem;
 	}
 }
