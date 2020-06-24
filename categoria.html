@@ -14,9 +14,7 @@
   <script src="assets/js/codes.js"></script>
   <script src="assets/js/categoria.js"></script>
 </head>
-
 <body class="body-categoria">
-
   <nav class="nav-categoria">
     <ul class="ul-categoria">
       <li class="categorias"><a class="cat1" href="index.html">Osvaldo Aranha</a></li>
@@ -27,12 +25,11 @@
   </nav>
 
   <h1 class="categoria">{{categoria}}</h1>
-
   <div class="grid-container">
     <ul class="abacate">
       {{#each projetos}}
-      <div class="grid-img "><a href="projeto.html"><img class="carlinhos" src="assets/img/{{@key}}.jpg" width=150 height=150 alt="cat1"></a></div>
-      <div class="grid-title"><a class="grid-title fonte_titulo" href="projeto.html">{{this.titulo}}</a></div>
+      <div class="grid-img "><a href="projeto.html"><img src="assets/img/{{@key}}.jpg" width=150 height=150 alt="cat1"></a></div>
+      <div class="grid-title"><a class="grid-title fonte_titulo carlinhos" href="projeto.html">{{this.titulo}}</a></div>
       <div class="grid-item">{{this.descricao}}</div> 
       {{/each}}
     </ul>

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   db.download('/', function(data) {
     context = data.portfolio
-    console.log(data.portfolio.hardware)
+    //console.log(data.portfolio.hardware)
     coDesReplace('.ul-categoria', context)
   })
 })

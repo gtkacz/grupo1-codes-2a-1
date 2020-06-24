@@ -90,6 +90,7 @@
 	float: left;
 	width: 15%;
 	text-align: center;
+	justify-content: center;
 	line-height: 3em;
 	border-right: 0.02em solid #000000;
 	font-family: 'Sen', sans-serif;
