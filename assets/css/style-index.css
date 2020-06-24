@@ -30,15 +30,10 @@
 }
 
 .profile-pic{
-	width: 30%;
-	object-fit: contain;
-	overflow: auto;
-	display: center;
-	align-self: center;
-	margin-left:auto;
-	margin-left: auto;
+	display: flex;
+	max-width: 30%;
 	border-radius: 50%;
-
+	align-self: center;
 }
 
 .titulo-nome{
@@ -64,6 +59,9 @@
 	padding: 0.1rem;
 	margin-top: 2rem;
 	grid-row-gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -81,17 +79,12 @@
 	.grid-foto-cv{
 		grid-row-gap: 1rem;
 		padding: 0.5rem;
-		align-items: center;
-		justify-content: center;
 	}
 
 	.profile-pic{
 		display: flex;
-		width: 20rem;
-		object-fit: contain;
-		max-height: 70%;
-		align-content: center;
-		justify-content: center;
+		width: 100%;
 		border-radius: 50%;
+		align-self: center;
 	}
 }

@@ -154,115 +154,41 @@
 }
 
 .grid-container{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas:
-	'grid-img grid-img2 grid-img3'
-	'grid-title grid-title2 grid-title3'
-	'grid-item grid-item2 grid-item3' ;
+	display: flex;
 	padding: 2rem; 
 	margin-top: 4rem;
-	grid-column-gap: 10rem;
-	grid-row-gap: 1rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+.grid-img{
+	margin-top: 5em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	max-width: 100%;
 }
 
 .grid-item{
-	grid-area: grid-item;
-	/*padding: 2em;
-	text-align: left;
-	display: block*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.5em;
+	margin-bottom: 2em;
 	font-family: 'Sen', sans-serif;
 	font-size: 1.05em;
 }
-
-.grid-item2{
-	grid-area: grid-item2;
-	/*padding: 2em;
-	margin-left: -40px;	
-	text-align: center;
-	display: block*/
-	font-family: 'Sen', sans-serif;
-	font-size: 1.05em;
-}
-
-.grid-item3{
-	grid-area: grid-item3;
-	/*padding: 2em;
-	margin-right: 220px;
-	text-align: right;
-	display: block*/
-	font-family: 'Sen', sans-serif;
-	font-size: 1.05em;
-}
-
 
 .grid-title{
-	grid-area: grid-title;
-	/*text-align: left;
-	margin-left: -20px;
-	margin-top: -5em;
-	padding: 2em;*/
-	text-decoration:none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0.25em;
 	color: #000000;
 	font-size: 1.3em;
 	font-family: 'Sen', sans-serif;
 	
 }
-
-.grid-title2{
-	grid-area: grid-title2;
-	/*padding: 2em;
-	margin-left: -45px;
-	margin-top: -5em;
-	text-align: center;*/
-	text-decoration:none;
-	font-family: 'Sen', sans-serif;
-	color: #000000;	
-	font-size: 1.3em;
-}
-
-.grid-title3{
-	grid-area: grid-title3;
-	/*margin-right: 65px;	
-	padding: 2em;
-	text-align: right;
-	margin-top: -5em;*/
-	font-family: 'Sen', sans-serif;
-	font-size: 1.3em;
-	text-decoration:none;
-	color: #000000;
-}
-.grid-img{
-	grid-area: grid-img;
-	/*object-fit: cover;
-	text-align: left;
-	min-width: auto;
-	margin-top: -2em;
-	margin-bottom: 5em;
-	margin-left: 80px;*/
-}
-
-.grid-img2{
-	grid-area: grid-img2;
-	object-fit: cover;
-	/*text-align: center
-	min-width: auto;
-	margin-top: -2em;
-	margin-bottom: 5em;
-	margin-left: 35px;*/
-
-}
-.grid-img3{
-	grid-area: grid-img3;
-	/*object-fit: cover;
-	text-align: right
-	min-width: auto;
-	margin-top: -2em;
-	margin-bottom: 5em;
-	margin-left: 150px;*/
-	
-}
-
 
 .page{
   background-color: #d3d3d3;
