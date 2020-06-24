@@ -6,12 +6,12 @@
 }
 
 .call-figure {
-  width: 33%;
+  width: 50%;
 }
 
 .call-image {
-  width: 0%;
-  border-radius: 25%;
+  width: 50%;
+  border-radius: 100%;
 }
 
 .call-text {
@@ -30,11 +30,11 @@
 }
 
 .profile-pic{
-	width: 20rem;
+	width: 50rem;
 	overflow: auto;
-	margin-left: 1rem;
-	margin-right: 1rem;
 	display: flex;
+	align-items: center;
+	margin-left:7rem;
 
 }
 
@@ -58,7 +58,6 @@
 }
 
 .grid-foto-cv{
-	grid-template-rows: auto auto auto;
 	padding: 0.1rem;
 	margin-top: 2rem;
 	grid-row-gap: 1rem;
@@ -77,13 +76,15 @@
 
 }
 	.grid-foto-cv{
-		grid-template-rows:1fr 1fr ;
-		grid-row-gap: 0.5rem;
+		grid-row-gap: 1rem;
 		padding: 0.5rem;
 	}
 
 	.profile-pic{
-		width: auto;
+		display: flex;
+		width: 15rem;
 		max-height: 70%;
+		align-content: center;
+		margin-right: 50rem;
 	}
 }
