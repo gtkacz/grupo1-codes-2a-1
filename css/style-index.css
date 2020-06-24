@@ -1,0 +1,90 @@
+.call{
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.call-figure {
+  width: 50%;
+}
+
+.call-image {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.call-text {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.page{
+  background-color: #d3d3d3;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+.profile-pic{
+	display: flex;
+	max-width: 30%;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.titulo-nome{
+	position: relative;
+	text-align: center;
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2rem;
+}
+
+.cv-box{
+	display: flex;
+	border-style: solid;
+	border-width: 0.1rem;
+	margin: 1rem 10rem 1rem 10rem;
+	padding: 1rem;
+	font-family: 'Sen', sans-serif;
+	font-size: 1.5rem;
+}
+
+.grid-foto-cv{
+	padding: 0.1rem;
+	margin-top: 2rem;
+	grid-row-gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.titulo-nome{
+		font-size: 1.5em;
+		margin-top: 4rem;
+}
+	
+	.cv-box{
+		font-size: 0.75rem;
+		margin: 1rem 2rem 1rem 2rem;
+
+}
+	.grid-foto-cv{
+		grid-row-gap: 1rem;
+		padding: 0.5rem;
+	}
+
+	.profile-pic{
+		display: flex;
+		width: 100%;
+		border-radius: 50%;
+		align-self: center;
+	}
+}

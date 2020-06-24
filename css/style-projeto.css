@@ -1,0 +1,154 @@
+.call{
+
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.call-figure {
+  width: 33%;
+}
+
+.call-image {
+  width: 100%;
+  border-radius: 12%;
+  align-items: center;
+}
+
+.call-text {
+  width: 25%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.categoria_fonte_titulo{
+	font-family: 'Roboto Slab', serif;
+	font-size: 3rem;
+	margin-top: 8rem;
+	text-align: center;
+}
+
+.fonte_titulo{
+	font-family: 'Roboto Slab', serif;
+}
+	
+.fonte_corpo{
+	font-family: 'Sen', sans-serif;
+}
+	
+.container-img{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3%;
+}
+
+.block-img{
+	align-self: center;
+}
+
+.block-container{
+	display: inline-block;
+	grid-template-columns: auto auto auto;
+}
+
+
+.block-item{
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 120%;
+	text-align: center;
+	display: block;
+}
+
+.block-item-next{
+	padding-top: 7%;
+	padding-left: 21%;
+	font-size: 100%;
+	text-align: center;
+	display: grid;
+}
+
+.block-item-last{
+	padding-right: 21%;
+	font-size: 100%;
+	text-align: center;
+	display: grid;
+}
+
+.block-item-topo{
+	padding-bottom: 7%;
+	padding-top: 4%;
+	font-size: 100%;
+	text-align: center;
+	display: grid;
+}
+
+.block-title{
+	padding: 1%;
+	font-size: 144%;
+	text-align: center;
+	margin-top: 4%;
+	color: #1e211d;
+	text-decoration: none;
+}
+
+.page{
+  background-color: #d3d3d3;
+}
+
+@media (max-width: 600px){
+
+	.block-title{
+		font-size: 85%;
+		padding-top: 10%;
+}
+
+	.block-item{
+		font-size: 70%;
+		padding-right: 4%;
+		padding-left: 4%; 
+}
+
+	.block-img{
+		max-width: 68rem;
+		height: auto;
+		margin-top: -3rem;
+		text-align: center;
+
+}
+	.img-container{
+		max-width: 50%;
+		height: auto;
+		margin-top: 5rem;
+		text-align: center;
+		margin-left: 3.3rem;
+	}
+
+	.categoria_fonte_titulo{
+		font-size: 1.3rem;
+		margin-top: 4rem;
+
+}
+
+	.block-item-next{
+		text-align: center;
+		margin-top: 1rem;
+		font-size: 0.5rem;
+		margin-left: 20px;
+
+}
+
+	.block-item-last{
+		text-align: center;
+		margin-top: -0.5rem;
+		font-size: 0.5rem;
+		margin-left: -20px;
+}
+	
+	.block-item-topo{
+		font-size: 0.5rem;
+
+}
+}
